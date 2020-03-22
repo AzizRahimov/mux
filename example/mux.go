@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"mux/pkg/mux"
+
+	"github.com/AzizRahimov/mux/pkg/mux"
 	"net/http"
 )
 
@@ -23,3 +24,5 @@ func main() {
 
 	panic(http.ListenAndServe("0.0.0.0:9999", mu))
 }
+
+
